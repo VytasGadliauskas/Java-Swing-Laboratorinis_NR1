@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LaboratorinisNr1:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec345891-e3c7-44c1-bd77-093301aa16b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LaboratorinisNr1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/064bd62ec729aa48bf4f6c4ad494e01dd5ee730b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b28741aacda0b1dc83138b067f5575ecff1c9e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8f523b037d14bd86320a8333ec85449154c034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a9114992e7ca0f5f777f83248110666edb4255b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/724bdaf349db94bf4b8c81c6100835bf4b39433d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75ef136552088c0a5f25e5dc797016cd327700ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92594cd5d6fb9bdac2b1c6c8eff8369ac3b9d258" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9540a1607f7ebf66a2748e87458e8321db5aa30c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96d56562704e201e87e37718ddeadc0cfd36b778" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d813d1b009032009972b34c33fbb91b7a9c9aaf3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2b2a5abfd7e11e7d24307af2e4cf55c8a42cff9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f48a101292e7f19969a8c6fbef45c7d8c55f3fb6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaboratorinisNr1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kandidatai.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AboutForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AboutForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CsvData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kandidatas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LaboratorinisNr1GUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LaboratorinisNr1GUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operacijos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/opened-folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pablita-perfect-candidates-cv-fo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29WG63fbBXNNRDbz2JD42EbMmTV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "375",
+    "last_opened_file_path": "/home/user/Nextcloud/Darbas/Mano/Kursai/JAVA/SavarankiskosJavaZuduotys/LaboratorinisNr1/LaboratorinisNr1",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.LaboratorinisNr1GUI">
+    <configuration name="LaboratorinisNr1GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LaboratorinisNr1GUI" />
+      <module name="LaboratorinisNr1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OpenFile" />
+      <module name="LaboratorinisNr1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LaboratorinisNr1GUI" />
+        <item itemvalue="Application.OpenFile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec345891-e3c7-44c1-bd77-093301aa16b6" name="Changes" comment="" />
+      <created>1653221251559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653221251559</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
