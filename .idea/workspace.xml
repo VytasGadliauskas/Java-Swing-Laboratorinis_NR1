@@ -7,49 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec345891-e3c7-44c1-bd77-093301aa16b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LaboratorinisNr1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/064bd62ec729aa48bf4f6c4ad494e01dd5ee730b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b28741aacda0b1dc83138b067f5575ecff1c9e1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8f523b037d14bd86320a8333ec85449154c034" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a9114992e7ca0f5f777f83248110666edb4255b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/724bdaf349db94bf4b8c81c6100835bf4b39433d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75ef136552088c0a5f25e5dc797016cd327700ee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92594cd5d6fb9bdac2b1c6c8eff8369ac3b9d258" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/9540a1607f7ebf66a2748e87458e8321db5aa30c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96d56562704e201e87e37718ddeadc0cfd36b778" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d813d1b009032009972b34c33fbb91b7a9c9aaf3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2b2a5abfd7e11e7d24307af2e4cf55c8a42cff9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f48a101292e7f19969a8c6fbef45c7d8c55f3fb6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LaboratorinisNr1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kandidatai.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AboutForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AboutForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AddForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AddForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CsvData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kandidatas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LaboratorinisNr1GUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LaboratorinisNr1GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operacijos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/opened-folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pablita-perfect-candidates-cv-fo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CsvData.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
