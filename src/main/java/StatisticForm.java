@@ -27,6 +27,18 @@ public class StatisticForm extends JDialog {
         dispose();
     }
 
+    public JPanel getJpanelPagalStaza() {
+        return jpanelPagalStaza;
+    }
+
+    public JPanel getJpanelPagalProfesija() {
+        return jpanelPagalProfesija;
+    }
+
+    public JPanel getJpanelPagalAlga() {
+        return jpanelPagalAlga;
+    }
+
     public static void main(String[] args) {
         StatisticForm dialog = new StatisticForm();
         dialog.pack();

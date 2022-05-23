@@ -1,3 +1,10 @@
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.general.DefaultPieDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -141,7 +148,21 @@ public class LaboratorinisNr1GUI extends JFrame {
                 StatisticForm statisticForm = new StatisticForm();
                 statisticForm.setTitle("Laboratorinis Nr.:1 Statistikos");
                 statisticForm.setModal(true);
-               // statisticForm.
+                statisticForm.getJpanelPagalProfesija().setLayout(new java.awt.BorderLayout());
+                statisticForm.getJpanelPagalProfesija().add(getFreeChar("Pagal profesija"),
+                        BorderLayout.CENTER);
+                statisticForm.getJpanelPagalProfesija().validate();
+
+                statisticForm.getJpanelPagalStaza().setLayout(new java.awt.BorderLayout());
+                statisticForm.getJpanelPagalStaza().add(getFreeChar("Pagal staza"),
+                        BorderLayout.CENTER);
+                statisticForm.getJpanelPagalStaza().validate();
+
+                statisticForm.getJpanelPagalAlga().setLayout(new java.awt.BorderLayout());
+                statisticForm.getJpanelPagalAlga().add(getFreeChar("Pagal alga"),
+                        BorderLayout.CENTER);
+                statisticForm.getJpanelPagalAlga().validate();
+
                 statisticForm.pack();
                 statisticForm.setLocationRelativeTo(laboratorinisNr1GUI);
                 statisticForm.setVisible(true);
@@ -237,6 +258,29 @@ public class LaboratorinisNr1GUI extends JFrame {
         laboratorinisNr1GUI.setVisible(true);
         laboratorinisNr1GUI.setLocationRelativeTo(null);
         laboratorinisNr1GUI.pack();
+    }
+
+    public ChartPanel getFreeChar(String title){
+        DefaultPieDataset dataset = new DefaultPieDataset( );
+        dataset.setValue( "IPhone 5s" ,20);
+        dataset.setValue( "SamSung Grand" ,20);
+        dataset.setValue( "MotoG" ,40);
+        dataset.setValue( "Nokia Lumia" ,10);
+
+
+        JFreeChart chart = ChartFactory.createPieChart(
+                title,   // chart title
+                dataset,          // data
+                true,             // include legend
+                true,
+                false);
+
+        ChartPanel chartPanel = new ChartPanel((JFreeChart) null);
+        chartPanel.setChart(chart);
+        chartPanel.setBounds(39, 193, 419, 309);
+
+        ChartPanel CP = new ChartPanel(chart);
+        return CP;
     }
 
     private void createUIComponents() {
