@@ -2,8 +2,6 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.general.DefaultPieDataset;
-import org.jfree.data.xy.XYSeries;
-import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,6 +12,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import javax.swing.table.DefaultTableModel;
 
 public class LaboratorinisNr1GUI extends JFrame {
@@ -149,17 +148,17 @@ public class LaboratorinisNr1GUI extends JFrame {
                 statisticForm.setTitle("Laboratorinis Nr.:1 Statistikos");
                 statisticForm.setModal(true);
                 statisticForm.getJpanelPagalProfesija().setLayout(new java.awt.BorderLayout());
-                statisticForm.getJpanelPagalProfesija().add(getFreeChar("Pagal profesija"),
+                statisticForm.getJpanelPagalProfesija().add(getFreeChar(1,"Pagal profesija"),
                         BorderLayout.CENTER);
                 statisticForm.getJpanelPagalProfesija().validate();
 
                 statisticForm.getJpanelPagalStaza().setLayout(new java.awt.BorderLayout());
-                statisticForm.getJpanelPagalStaza().add(getFreeChar("Pagal staza"),
+                statisticForm.getJpanelPagalStaza().add(getFreeChar(2,"Pagal staza"),
                         BorderLayout.CENTER);
                 statisticForm.getJpanelPagalStaza().validate();
 
                 statisticForm.getJpanelPagalAlga().setLayout(new java.awt.BorderLayout());
-                statisticForm.getJpanelPagalAlga().add(getFreeChar("Pagal alga"),
+                statisticForm.getJpanelPagalAlga().add(getFreeChar(3,"Pagal alga"),
                         BorderLayout.CENTER);
                 statisticForm.getJpanelPagalAlga().validate();
 
@@ -260,25 +259,38 @@ public class LaboratorinisNr1GUI extends JFrame {
         laboratorinisNr1GUI.pack();
     }
 
-    public ChartPanel getFreeChar(String title){
+    public ChartPanel getFreeChar(int type,String title){
         DefaultPieDataset dataset = new DefaultPieDataset( );
-        dataset.setValue( "IPhone 5s" ,20);
-        dataset.setValue( "SamSung Grand" ,20);
-        dataset.setValue( "MotoG" ,40);
-        dataset.setValue( "Nokia Lumia" ,10);
+        switch (type){
+            case 1:
+                Operacijos operacijos1 = new Operacijos(this.kandidatai);
+                HashMap<String,Integer> data1 = operacijos1.pagalProfesija();
+                data1.forEach((key,value) -> dataset.setValue(key, value));
+                break;
+            case 2:
+                Operacijos operacijos2 = new Operacijos(this.kandidatai);
+                HashMap<String,Integer> data2 = operacijos2.pagalStaza();
+                data2.forEach((key,value) -> dataset.setValue(key+" metai", value));
+                break;
+            case 3:
+                Operacijos operacijos3 = new Operacijos(this.kandidatai);
+                HashMap<String,Integer> data3 = operacijos3.pagalAlga();
+                data3.forEach((key,value) -> dataset.setValue( key+" Eu", value));
+                break;
+            default:
+                dataset.setValue( "Demo1" ,20);
+                dataset.setValue( "Demo2" ,20);
+                dataset.setValue( "Demo3" ,40);
+                dataset.setValue( "Demo4" ,10);
+
+        }
+
 
 
         JFreeChart chart = ChartFactory.createPieChart(
-                title,   // chart title
-                dataset,          // data
-                true,             // include legend
-                true,
-                false);
-
+                title, dataset,true,true,false);
         ChartPanel chartPanel = new ChartPanel((JFreeChart) null);
         chartPanel.setChart(chart);
-        chartPanel.setBounds(39, 193, 419, 309);
-
         ChartPanel CP = new ChartPanel(chart);
         return CP;
     }

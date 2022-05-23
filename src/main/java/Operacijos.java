@@ -1,6 +1,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Operacijos {
@@ -97,5 +99,58 @@ public class Operacijos {
 
     public ArrayList<Kandidatas> getKandidatai() {
         return kandidatai;
+    }
+
+    public HashMap<String,Integer> pagalAlga(){
+        HashSet<Integer> algos = new HashSet<>();
+        this.kandidatai.forEach(el -> {
+            algos.add(el.getPageidaujamasAtlyginimas());
+        });
+        HashMap<String,Integer> pagalAlgas = new HashMap<>();
+        for (Integer alga: algos) {
+            int sumaa = 0;
+            for (Kandidatas kan: this.kandidatai) {
+                if(alga == kan.getPageidaujamasAtlyginimas()){
+                    sumaa++;
+                }
+            }
+            pagalAlgas.put(String.valueOf(alga),sumaa);
+        }
+        return pagalAlgas;
+    }
+
+    public HashMap<String,Integer> pagalStaza(){
+        HashSet<Integer> stazai = new HashSet<>();
+        this.kandidatai.forEach(el -> {
+            stazai.add(el.getProfesinePatirtisMetais());
+        });
+        HashMap<String,Integer> pagalStaza = new HashMap<>();
+        for (Integer stazas: stazai) {
+            int sumaa = 0;
+            for (Kandidatas kan: this.kandidatai) {
+                if(stazas == kan.getProfesinePatirtisMetais()){
+                    sumaa++;
+                }
+            }
+            pagalStaza.put(String.valueOf(stazas),sumaa);
+        }
+        return pagalStaza;
+    }
+    public HashMap<String,Integer> pagalProfesija(){
+        HashSet<String> profesijos = new HashSet<>();
+        this.kandidatai.forEach(el -> {
+            profesijos.add(el.getPareigos());
+        });
+        HashMap<String,Integer> pagalProfesija = new HashMap<>();
+        for (String profesija: profesijos) {
+            int sumaa = 0;
+            for (Kandidatas kan: this.kandidatai) {
+                if(profesija.equals(kan.getPareigos())){
+                    sumaa++;
+                }
+            }
+            pagalProfesija.put(String.valueOf(profesija),sumaa);
+        }
+        return pagalProfesija;
     }
 }
