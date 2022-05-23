@@ -10,7 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec345891-e3c7-44c1-bd77-093301aa16b6" name="Changes" comment="pabaiga">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jfree_jcommon_1_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/slice.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LaboratorinisNr1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LaboratorinisNr1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LaboratorinisNr1GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaboratorinisNr1GUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LaboratorinisNr1GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaboratorinisNr1GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StatisticForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StatisticForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StatisticForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StatisticForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +60,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "310",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "175",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "358",
     "last_opened_file_path": "/home/user/Nextcloud/Darbas/Mano/Kursai/JAVA/SavarankiskosJavaZuduotys/LaboratorinisNr1/LaboratorinisNr1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -118,7 +128,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1653304563470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="pabaiga">
+      <created>1653335880652</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1653335880652</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

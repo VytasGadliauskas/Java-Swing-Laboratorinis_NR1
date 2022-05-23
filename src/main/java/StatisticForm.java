@@ -5,6 +5,10 @@ import java.awt.event.ActionListener;
 public class StatisticForm extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
+    private JTabbedPane tabbedPane1;
+    private JPanel jpanelPagalProfesija;
+    private JPanel jpanelPagalStaza;
+    private JPanel jpanelPagalAlga;
 
     public StatisticForm() {
         setContentPane(contentPane);

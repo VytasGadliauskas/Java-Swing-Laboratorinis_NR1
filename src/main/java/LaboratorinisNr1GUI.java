@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.print.PrinterException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -18,6 +19,8 @@ public class LaboratorinisNr1GUI extends JFrame {
     private JButton buttonAbout;
     private JLabel labelStatus;
     private JButton buttonSaveFile;
+    private JButton buttonStats;
+    private JButton buttonPrint;
 
     private JScrollPane scrollPane;
 
@@ -132,6 +135,32 @@ public class LaboratorinisNr1GUI extends JFrame {
                 }
             }
         });
+        buttonStats.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                StatisticForm statisticForm = new StatisticForm();
+                statisticForm.setTitle("Laboratorinis Nr.:1 Statistikos");
+                statisticForm.setModal(true);
+               // statisticForm.
+                statisticForm.pack();
+                statisticForm.setLocationRelativeTo(laboratorinisNr1GUI);
+                statisticForm.setVisible(true);
+            }
+        });
+        buttonPrint.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    boolean print = table1.print();
+                    if (!print) {
+                        JOptionPane.showMessageDialog(null, "Unable To Print !!..");
+                    }
+                } catch (PrinterException ex) {
+                    JOptionPane.showMessageDialog(null, ex.getMessage());
+                }
+            }
+
+        });
     }
 
     public void refreshTable(ArrayList<Kandidatas> kandidatai) {
@@ -204,7 +233,7 @@ public class LaboratorinisNr1GUI extends JFrame {
         laboratorinisNr1GUI.setTitle("Laboratorinis Nr.:1");
         laboratorinisNr1GUI.setContentPane(new LaboratorinisNr1GUI().Main);
         laboratorinisNr1GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        laboratorinisNr1GUI.setPreferredSize(new Dimension(600, 400));
+        laboratorinisNr1GUI.setPreferredSize(new Dimension(640, 400));
         laboratorinisNr1GUI.setVisible(true);
         laboratorinisNr1GUI.setLocationRelativeTo(null);
         laboratorinisNr1GUI.pack();
