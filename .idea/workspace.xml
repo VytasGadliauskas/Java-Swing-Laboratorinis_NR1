@@ -5,9 +5,39 @@
       <artifact name="LaboratorinisNr1:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ec345891-e3c7-44c1-bd77-093301aa16b6" name="Changes" comment="pabaiga">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jfree_jfreechart_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StatisticForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StatisticForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LaboratorinisNr1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LaboratorinisNr1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AboutForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AboutForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AboutForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AboutForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FilterForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FilterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kandidatas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kandidatas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LaboratorinisNr1GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaboratorinisNr1GUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LaboratorinisNr1GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaboratorinisNr1GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operacijos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operacijos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/java.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opened-folder.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/opened-folder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pablita-perfect-candidates-cv-fo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pablita-perfect-candidates-cv-fo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/search.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +57,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="29WG63fbBXNNRDbz2JD42EbMmTV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,13 +78,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "375",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "310",
     "last_opened_file_path": "/home/user/Nextcloud/Darbas/Mano/Kursai/JAVA/SavarankiskosJavaZuduotys/LaboratorinisNr1/LaboratorinisNr1",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.LaboratorinisNr1GUI">
     <configuration name="LaboratorinisNr1GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LaboratorinisNr1GUI" />
@@ -85,7 +127,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1653267669473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="pabaiga">
+      <created>1653268201917</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1653268201917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

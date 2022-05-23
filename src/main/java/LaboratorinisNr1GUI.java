@@ -57,8 +57,8 @@ public class LaboratorinisNr1GUI extends JFrame {
                 AddForm addForm = new AddForm();
                 addForm.setTitle("Laboratorinis Nr.:1 Prideti irasa");
                 addForm.setModal(true);
-                addForm.setLocationRelativeTo(laboratorinisNr1GUI);
                 addForm.pack();
+                addForm.setLocationRelativeTo(laboratorinisNr1GUI);
                 addForm.setVisible(true);
                 if (!addForm.getTextVardas().equals("")) {
                     Kandidatas kandidatas = new Kandidatas(addForm.getTextVardas(), addForm.getTextPavarde(),
@@ -85,8 +85,8 @@ public class LaboratorinisNr1GUI extends JFrame {
                 FilterForm filterForm = new FilterForm();
                 filterForm.setTitle("Laboratorinis Nr.:1");
                 filterForm.setModal(true);
-                filterForm.setLocationRelativeTo(laboratorinisNr1GUI);
                 filterForm.pack();
+                filterForm.setLocationRelativeTo(laboratorinisNr1GUI);
                 filterForm.setVisible(true);
                 filtraiKandidatu(filterForm.getComboBoxFitroTipas(), filterForm.getVardas(),
                         filterForm.getPavarde(), filterForm.getPareigos(), filterForm.getStazas());
@@ -98,8 +98,8 @@ public class LaboratorinisNr1GUI extends JFrame {
                 AboutForm aboutForm = new AboutForm();
                 aboutForm.setTitle("Laboratorinis Nr.:1");
                 aboutForm.setModal(true);
-                aboutForm.setLocationRelativeTo(laboratorinisNr1GUI);
                 aboutForm.pack();
+                aboutForm.setLocationRelativeTo(laboratorinisNr1GUI);
                 aboutForm.setVisible(true);
             }
         });
@@ -197,6 +197,10 @@ public class LaboratorinisNr1GUI extends JFrame {
 
     public static void main(String[] args) {
         laboratorinisNr1GUI = new LaboratorinisNr1GUI();
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        int height = screenSize.height;
+        int width = screenSize.width;
+        laboratorinisNr1GUI.setSize(width/2, height/2);
         laboratorinisNr1GUI.setTitle("Laboratorinis Nr.:1");
         laboratorinisNr1GUI.setContentPane(new LaboratorinisNr1GUI().Main);
         laboratorinisNr1GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
